@@ -1,0 +1,19 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+.parrafoCarousel{
+    color: $doradosmoke;
+}
+.contenedorCar{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel{  
+    width: 80%;
+    height: 25%;
+    margin: 10%;
+}

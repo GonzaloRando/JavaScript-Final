@@ -1,0 +1,47 @@
+@import "responsive";
+
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+/* Página Vinos */
+
+.vinos {
+  max-width: 1100px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 2rem; }
+
+.vinos_portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $blancosmoke;
+  margin-bottom: 2rem; }
+
+.imagenPortfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.titulo_portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $vino;
+}
+
+.texto_vinos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $negrosmoke;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1em;
+
+}

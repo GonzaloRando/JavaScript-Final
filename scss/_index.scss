@@ -1,0 +1,110 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+/* Index */
+
+
+  
+  h2 {
+    color: $vino;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center; }
+  
+  .cartas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .cartasContenedor_uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .cartasContenedor_dos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2rem;
+  }
+  
+  .cartas_titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: $doradosmoke;
+    font-size: larger;
+  }
+  
+  .cartas_texto{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+
+  }
+
+  .botonCartas {
+    background-color: $vino;
+    color: $blancosmoke;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .botonCartas:hover{
+    color: $blancosmoke;
+    background-color: $doradosmoke;
+  }
+  
+  .seccionAmbas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%; }
+  
+  .sobreNosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Saira Condensed', sans-serif; }
+  
+  .texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.5em; }
+  
+  .textoPortfolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid;
+    border-color: $vino;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: larger;
+  }
+
+.imagenMendoza{
+  width: 100%;
+}
+
+.imagenSalta{
+  width: 100%;
+}

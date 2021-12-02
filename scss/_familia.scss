@@ -1,0 +1,44 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+/* Familia */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem; }
+  
+  .familiaPiat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+  width: 100%;
+}
+  
+.parrafo_familia{
+  padding: 2px;
+}
+  .familiaPiat h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    color: #6B3442; }
+  
+  .familiaPiat img {
+    height: 400px;
+  }
+  
+  .familiaPiat > div {
+    padding: 2rem; }
+  
+/*   .familiaPiat:nth-child(even) img {
+    order: 2; } */
+  

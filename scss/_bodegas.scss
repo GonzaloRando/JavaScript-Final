@@ -1,0 +1,30 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+
+/* Página Bodegas */
+
+.mapasBodegas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.mapasBodegas_salta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mapasBodegas_mendoza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

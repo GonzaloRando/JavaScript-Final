@@ -1,0 +1,81 @@
+@import "index";
+@import "vinos";
+@import "bodegas";
+@import "instalaciones";
+@import "familia";
+@import "contacto";
+@import "responsive";
+@import "carrito";
+
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+
+
+* {
+    margin: 0;
+    padding: 0; }
+
+li{
+  text-decoration: none;
+}
+
+h1 {
+  color: $vino;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center; }
+  
+body {
+    background-color: #e2e2e2; }
+
+
+/* Barra de Navegacion */
+
+.container-fluid{
+  background-image: image();
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+  background-color: $doradosmoke;
+  transition: opacity 1.5s;
+}
+.navbar-brand{
+  width: 100px;
+  background-color: transparent;
+}
+
+.loguito{
+  width: 100%;
+}
+
+#navegacion{
+  width: 100%;
+  height: 50%;
+  
+}
+
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+  height: 100%; 
+}
+
+.redeSociales {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 0px 0px 20px; 
+}
+

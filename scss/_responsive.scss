@@ -1,0 +1,20 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+
+/* Responsive */
+
+@media only screen and (min-width: 1024px) {
+    .caracVinos {
+        grid-template-columns: repeat(3, 1fr); } }
+
+@media only screen and (min-width: 768px) {
+    .caracVinos {
+        grid-template-columns: repeat(4, 1fr); } }
+
+@media only screen and (min-width: 768px) {
+    .vinos_portfolio {
+        grid-template-columns: repeat(4, 1fr); } }

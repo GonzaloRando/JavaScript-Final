@@ -1,0 +1,31 @@
+// Variables
+$vino:#6B3442;
+$negrosmoke: #1f1f1f;
+$blancosmoke:#f8f9fa;
+$doradosmoke: #9E9E5E;
+
+/* Formulario */
+
+
+.formulario{
+    width: 95%;
+    margin: 10px;
+}
+.form-select:focus {
+    border-color: $negrosmoke;
+    box-shadow: 0 0 0 0.1rem $negrosmoke;
+}
+.form-control:focus{
+    border-color: $negrosmoke;
+    box-shadow: 0 0 0 0.1rem $negrosmoke;
+}
+.btn-primary {
+    color: $blancosmoke;
+    background-color: $negrosmoke;
+    border-color: $negrosmoke;
+}
+.btn-primary:hover{
+    background-color: $vino;
+    color: $blancosmoke;
+    border-color: $negrosmoke;
+}
