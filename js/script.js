@@ -74,16 +74,27 @@ function comprarVino(producto){
 }
 
 function cargarLocalStorage(){
-    let carro = JSON.parse(localStorage.getItem('carrito'))
-    if(carro){
-        for(let i = 0; i < carro.length; i++){
-            carrito.push(new Vino(carro[i].id, carro[i].cepa, carro[i].cosecha, carro[i].stock, carro[i].cantidad))
+    let carritoStorage = JSON.parse(localStorage.getItem('carrito'))
+    if(carritoStorage){
+        for(let i = 0; i < carritoStorage.length; i++){
+            carrito.push(new Vino(carritoStorage[i].id, carritoStorage[i].cepa, carritoStorage[i].cosecha, carritoStorage[i].stock, carritoStorage[i].cantidad))
         }
     }
-    
 }
 
+//Acá intenté cargar de nuevo la cantidad, y que me quedara seteado en el carrito lo que el usuario yá seleccionó previamente
+//Como verás fallé jajaja
+/* const nuevaCompra = JSON.parse(localStorage.getItem('carrito'))
+let total = 0; 
+    for(let i=0; i<carrito.length;i++){
+        total += carrito[i].cantidad;
+    }
+    const compraProductos = document.getElementById('compraProductos');
+    compraProductos.innerHTML = total;
+    localStorage.setItem('carrito', JSON.stringify(carrito));
 
+
+ */
 
 
 
