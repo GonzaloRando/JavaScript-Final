@@ -22,11 +22,11 @@ $doradosmoke: #9E9E5E;
   background: $blancosmoke;
   margin-bottom: 2rem; }
 
-.imagenPortfolio{
+.imagen_portfolio{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 20%;
 }
 
 .titulo_portfolio{
@@ -41,7 +41,8 @@ $doradosmoke: #9E9E5E;
   flex-direction: column;
   align-items: center;
   color: $negrosmoke;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1em;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
 
 }
