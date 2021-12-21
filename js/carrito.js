@@ -5,7 +5,6 @@ const productos = document.getElementById('shop')
 
 // CARGA DE PRODUCTOS
 $.getJSON('../data/productos.json', function (data){
-    console.log(data)
     data.forEach(elemento => vinos.push(elemento))
     mostrarProductos();
     
